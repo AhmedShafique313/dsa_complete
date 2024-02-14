@@ -21,6 +21,8 @@ This lab is based on Functions and Structures. All codes are below.
 * Geometric Sum Series
 * Combination of all these
 * Student Structure for average marks calculation
+* Lab-III-Fundamentals-I[921].pdf
+* Lab-III-Fundamentals-II[921].pdf
 
 ### Lab 3 
 * Sort_struct_student.cpp
