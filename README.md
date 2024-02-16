@@ -1,11 +1,11 @@
-# Data Structures and Algorithms 
+# Data Structures and Algorithms & OOP
 
-### Complete Codes of Data Structures and Algorithms Labs by Ahmed Shafique
+### Complete Codes of Data Structures and Algorithms & OOP Codes by Ahmed Shafique
 
-This Repository is used to help others to find data structures and algorithms codes in signle repository. I am GitHub open source contributer contributing my all C/C++ Codes related to DSA in single repository. ✨
+This Repository is used to help others to find data structures and algorithms codes in signle repository. I am GitHub open source contributer contributing my all C/C++ Codes related to DSA & OOP in single repository. ✨
 
 ### Codes related to DSA are mentioned in following sequences of labs
-All labs containing codes that are very helpful for doing DSA in C++ programming. I mentioned all the codes and purpose with their lab section number. If you find any difficulty comment me a issue. 👏
+All labs containing codes that are very helpful for doing DSA & OOP in C++ programming. I mentioned all the codes and purpose with their lab section number. If you find any difficulty comment me a issue. 👏
 
 
 This lab is based on Functions and Structures. All codes are below.
@@ -27,4 +27,11 @@ This lab is based on Functions and Structures. All codes are below.
 ### Lab 3 
 * Sort_struct_student.cpp
 * Lab-III-Fundamentals-III[921].pdf
+
+# OOP
+Instructor Dr. Haris. I am just improving my grades in DSA so that's why I am making all these stuffs to help others because I am open source contributer. 
+
+### Classes (Public & Private) Complete codes
+* cl1.cpp
+
 
