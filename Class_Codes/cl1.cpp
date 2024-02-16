@@ -46,6 +46,6 @@ int main()
     cout<<"ENter the width of rectangle: ";cin>>rect_W;cout<<endl;
     box.setlength(rect_l);
     box.setwidth(rect_W);
-    cout<<"/n The dimension of rectabgle like length "<<rect_l<<" meter and "<<"widht "<<rect_W<<" meter gives us area which is "<<box.getarea()<<" meter-square"<<endl;
+    cout<<"The dimension of rectangle are length "<<rect_l<<" meter and "<<"widht "<<rect_W<<" meter gives us area which is "<<box.getarea()<<" meter-square"<<endl;
     return 0;
 }
