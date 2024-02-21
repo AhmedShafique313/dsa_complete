@@ -31,6 +31,7 @@ int main(int argc, char *argv[])
         cout<<"Author: [Your name here] \n"<<endl; 
         char date_time[50];
         time_t t = time(NULL);
+        //ctime_S(date_time, 50, &t);
         strftime(date_time, sizeof(date_time), "%c", localtime(&t));
         cout<<" [*] Today: "<<date_time<<endl;
 
