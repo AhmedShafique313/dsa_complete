@@ -32,5 +32,6 @@ int main()
     }
     cout<<"Your Matrix: "<<endl;
     print_array_ptr(1, c, p);
+    delete [] p;
     return 0;
 }
