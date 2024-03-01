@@ -46,7 +46,6 @@ This lab is based on Functions and Structures. All codes are below. I studed DSA
 * matrix_add.cpp
 * matrix_eva.cpp
 
-+ I am Ahmed
 
 # OOP
 Instructor Dr. Haris. I am just improving my grades in DSA so that's why I am making all these stuffs to help others because I am open source contributer. 
