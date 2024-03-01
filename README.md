@@ -31,6 +31,12 @@ This lab is based on Functions and Structures. All codes are below.
 # OOP
 Instructor Dr. Haris. I am just improving my grades in DSA so that's why I am making all these stuffs to help others because I am open source contributer. 
 
+### Sallybus for DSA (Dr. Haris Anwar) PPTX Slides
+- Lecture01
+- Lecture02
+- Lecture03
+- Lecture04
+
 ### Classes (Public & Private) Complete codes
 * cl1.cpp
 
