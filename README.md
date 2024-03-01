@@ -8,7 +8,7 @@ This Repository is used to help others to find data structures and algorithms co
 All labs containing codes that are very helpful for doing DSA & OOP in C++ programming. I mentioned all the codes and purpose with their lab section number. If you find any difficulty comment me a issue. 👏
 
 
-This lab is based on Functions and Structures. All codes are below.
+This lab is based on Functions and Structures. All codes are below. I studed DSA from `Dr. Bilal Wajid`, He is in top 3 Data Scientist in Pakistan.
 
 ### How to use them 🤔
 * Step:01 Fork the repository 
