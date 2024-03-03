@@ -6,7 +6,8 @@ using namespace std;
 
 struct element
 {
-    int c, r, *p;
+    int c, r;
+    long long *p;
 };
 
 void intialize(int row, int col, int *ptr)
@@ -26,13 +27,29 @@ void intialize(int row, int col, int *ptr)
 element matrices_multiplication(int r1, int c1, int r2, int c2, int *p1, int *p2)
 {
     element matrix;
-    if (r1 == c2)
+    if (c1 == r2)
     {
-        cout<<"Good"<<endl;
+        matrix.c = c1;
+        matrix.r = r1;
+        matrix.p = new long long [r1*c2];
+        for (int i = 0; i < r1; i++)
+        {
+            for (int j = 0; j < c2; j++)
+            {
+                long long sum = 0;
+                for (int k = 0; k < c1; k++)
+                {
+                    sum += *(p1 + i*c1 + k) * *(p2 + k + c2 + j);
+                }
+                *(matrix.p + i *c2 + j) =  sum;
+            }
+            
+        }
+                
     }
     else
     {
-        cout<<"Can't perform multiplication"<<endl;
+        cout << "Can't perform multiplication" << endl;
         matrix.c = 0;
         matrix.r = 0;
         matrix.p = NULL;
@@ -40,7 +57,7 @@ element matrices_multiplication(int r1, int c1, int r2, int c2, int *p1, int *p2
     return matrix;
 }
 
-void printing(int row, int col, int *ptr)
+void printing(int row, int col, long long *ptr)
 {
     for (int i = 0; i < row; i++)
     {
@@ -69,8 +86,9 @@ int main()
     intialize(row1, col1, ptr1);
     intialize(row2,col2,ptr2);
     element matrix;
-    matrix = matrices_multiplication(row1,col1,row2,col2,ptr1,ptr2);
-    printing(matrix.r,matrix.c,matrix.p);
+    matrix = matrices_multiplication(row1, col1, row2, col2, ptr1, ptr2);
+    cout << "Resultant Matrix:" << endl;
+    printing(matrix.r, matrix.c, matrix.p);
     delete [] ptr1;
     delete [] ptr2;
     return 0;
