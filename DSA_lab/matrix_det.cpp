@@ -65,6 +65,7 @@ double determinant(int m, int *p)
                     l = l + 1;  
                 }
             }
+            
             cout<<endl<<basic<<"x"<<endl;
             printing((m-1),(m-1), q);
             inner_determinant = determinant(m-1, q);
