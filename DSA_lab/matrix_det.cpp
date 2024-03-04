@@ -77,3 +77,32 @@ double determinant(int m, int *p)
     }    
     return ans;
 }
+
+void initialize_matrix(int row, int col, int *ptr)
+{
+    int k;
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 0; j < col; j++)
+        {
+            cin>>k;
+            *(ptr + i*col + j) = k;
+        }
+    }
+    return;
+}
+
+int main()
+{
+    int r, *p;
+    cout<<"Rows?: ";
+    cin>>r;
+    cout<<endl;
+    p = new int [r*r];
+    initialize_matrix(r,r,p);
+    printing(r,r,p);
+    double ans = determinant(r,p);
+    cout<<"Determinant: "<<ans<<endl;
+    delete [] p;
+    return 0;
+}
