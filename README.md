@@ -1,20 +1,22 @@
-# Data Structures and Algorithms & OOP
+# Data Structures and Algorithms using C++ Programming Language
 
-### Complete Codes of Data Structures and Algorithms & OOP Codes by Ahmed Shafique
+### Complete Codes of Data Structures and Algorithms, OOP Codes and detailed lectures of our Udemy Course 
 
 This Repository is used to help others to find data structures and algorithms codes in signle repository. I am GitHub open source contributer contributing my all C/C++ Codes related to DSA & OOP in single repository. ✨
+### Instructor: Ahmed Shafique
+- Electrical Engineer `25`
+- Specialized in AI/ML and in Deep Neural Networks
+- Instructor at Services By IEO (`Udemy` and `SkillShare`)
 
 ### Codes related to DSA are mentioned in following sequences of labs
 All labs containing codes that are very helpful for doing DSA & OOP in C++ programming. I mentioned all the codes and purpose with their lab section number. If you find any difficulty comment me a issue. 👏
 
 
-This lab is based on Functions and Structures. All codes are below. I studed DSA from `Dr. Bilal Wajid`, He is in top 3 Data Scientist in Pakistan.
-
 ### How to use them 🤔
 * Step:01 Fork the repository 
 * Step:02 Clone into your pc/laptop using vs code or git
 * Step:03 edit and then again push into your repository
-
+### Data Structures and Algorithms codes
 ### Lab 1 & 2
 * Arthmatic Series
 * Geometric Series
@@ -47,16 +49,14 @@ This lab is based on Functions and Structures. All codes are below. I studed DSA
 * matrix_eva.cpp
 
 
-# OOP
-Instructor Dr. Haris. I am just improving my grades in DSA so that's why I am making all these stuffs to help others because I am open source contributer. 
 
-### Sallybus for DSA (Dr. Haris Anwar) PPTX Slides
+### Sallybus for OOP and DSA
 - Lecture01
 - Lecture02
 - Lecture03
 - Lecture04
 
-### Classes (Public & Private) Complete codes
+### Object Oriented Programming Codes
 * cl1.cpp
 
 
