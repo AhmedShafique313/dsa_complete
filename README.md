@@ -57,6 +57,12 @@ All labs containing codes that are very helpful for doing DSA & OOP in C++ progr
 - Lecture04
 
 ### Object Oriented Programming Codes
-* cl1.cpp
+Go to the `Class_Codes` name folder then you'll get OOP codes in C++ langauge
 
+* cl1.cpp
+* cons_with_def.cpp
+* const_func.cpp
+* constructor1.cpp
+* constructor2.cpp
+* ptrs_classes_new.cpp
 
