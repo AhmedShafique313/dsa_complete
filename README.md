@@ -1,4 +1,6 @@
 # Data Structures and Algorithms using C++ Programming Language
+### Course Image
+![DSA](https://github.com/AhmedShafique313/dsa_complete/assets/99950606/3d5b12e9-e3de-4972-9f4d-984c5c89a689)
 
 ### Complete Codes of Data Structures and Algorithms, OOP Codes and detailed lectures of our Udemy Course 
 
