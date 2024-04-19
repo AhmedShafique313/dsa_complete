@@ -231,3 +231,4 @@ int main()
     }while(choice!=5);
     return 0;
 }
+// to run on CMD use single_ll.exe single_llc.cpp sli.txt
