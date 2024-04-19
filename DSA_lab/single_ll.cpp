@@ -96,6 +96,48 @@ void add(int value)
     return;
 }
 
+// deleting a node
+void deleting(int value)
+{
+    try
+    {
+        if (length==0)
+        {
+            throw(1);
+            cout<<"Linked list is empty, deleting is not possible"<<endl;
+        }
+        else
+        {
+            node *current, *prev;
+            current = start;
+            while ((current->next!=NULL) && (current->data!= value))
+            {
+                prev = current;
+                current = current->next;
+            }
+            if (current->data==value)
+            {
+                // if it is first node then
+                if (current==start)
+                {
+                    start = current->next;
+                }
+                else
+                {
+                    prev->next=current->next;
+                }
+                delete current;
+                length=length-1;
+            }
+        }
+    }
+    catch(...)
+    {
+        cout<<"Node having value ["<<value<<"] not found, Hence nothing to delete"<<endl;
+    }
+    return;
+}
+
 // main function
 int main()
 {
@@ -135,7 +177,9 @@ int main()
             break;
         }
         case 2:{
-            traverse();
+            int input_value;
+            cout<<"Enter the value of node that you want to delete: ";cin>>input_value;cout<<endl;
+            deleting(input_value);
             break;
         }
         case 3:{
