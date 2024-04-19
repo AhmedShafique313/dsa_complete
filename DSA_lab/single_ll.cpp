@@ -130,6 +130,7 @@ void deleting(int value)
                 length=length-1;
             }
         }
+        cout<<"Noting to delete"<<endl;
     }
     catch(...)
     {
@@ -141,7 +142,7 @@ void deleting(int value)
 // length of the node
 int size_of_linked_list()
 {
-    int size=0;
+    int size=1;
     node *temp = start;
     while (temp->next!=NULL)
     {
@@ -220,10 +221,7 @@ int main()
             break;
         }
         case 5:{
-            //int input_value;
-            cout<<"Enter the value of new node that you want to add: : ";//cin>>input_value;
-            cout<<endl;
-            //creating_node(input_value);
+            saveListToFile();
             break;
         }
         default:
