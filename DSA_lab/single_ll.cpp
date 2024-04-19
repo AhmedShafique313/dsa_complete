@@ -55,7 +55,7 @@ void traverse()
             int len=1;
             while (temp->next!=NULL)
             {
-                cout<<"["<<len<<"]: "<<temp->data<<" ";
+                cout<<"["<<len<<"]: "<<temp->data<<" "<<endl;
                 temp=temp->next;
                 len = len +1;
             }
