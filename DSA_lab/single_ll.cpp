@@ -59,7 +59,7 @@ void traverse()
                 temp=temp->next;
                 len = len +1;
             }
-            cout<<"["<<len<<"]: "<<temp->data<<"-"<<endl;
+            cout<<"["<<len<<"]: "<<temp->data<<" "<<endl;
         }
     }
     catch(...)
