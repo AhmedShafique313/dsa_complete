@@ -171,6 +171,7 @@ void saveListToFile() {
 // main function
 int main()
 {
+    cout<<"Dear User, reading file input.txt"<<endl;
     ifstream inputFile("sli.txt");
     if (inputFile.is_open()) {
         int num;
