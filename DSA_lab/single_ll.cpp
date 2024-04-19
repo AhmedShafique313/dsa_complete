@@ -1,5 +1,6 @@
 #include <iostream>
 #include <new>
+#include <fstream>
 using namespace std;
 
 // Structure of node
@@ -41,21 +42,31 @@ void creating_node(int value)
 // traverse function
 void traverse()
 {
-    if (length==0)
+    try
     {
-       return;
-    }
-    else
-    {
-        node *temp;
-        temp = start;
-        while (temp->next!=NULL)
+        if (length==0)
         {
-            cout<<temp->data<<"-";
-            temp=temp->next;
+            throw(1);
         }
-        cout<<temp->data<<endl;
+        else
+        {
+            node *temp;
+            temp = start;
+            int len=1;
+            while (temp->next!=NULL)
+            {
+                cout<<"["<<len<<"]: "<<temp->data<<" ";
+                temp=temp->next;
+                len = len +1;
+            }
+            cout<<"["<<len<<"]: "<<temp->data<<"-"<<endl;
+        }
     }
+    catch(...)
+    {
+        cout<<"Linked list is empty, Try create and add then traverse"<<endl;
+    }
+    
     return;
 }
 
@@ -88,9 +99,25 @@ void add(int value)
 // main function
 int main()
 {
+    ifstream inputFile("sli.txt");
+    if (inputFile.is_open()) {
+        int num;
+        while (inputFile >> num) {
+            if (start == NULL) {
+                creating_node(num);
+            } else {
+                add(num);
+            }
+        }
+        inputFile.close();
+    } else {
+        cout << "Unable to open numbers.txt" << endl;
+        return 1;
+    }
     int choice;
     do
     {
+        cout<<endl;
         cout << "Choose any single action:" << endl;
         cout << "[1] Add a node?" << endl;
         cout << "[2] Delete a node?" << endl;
