@@ -50,7 +50,19 @@ All labs containing codes that are very helpful for doing DSA & OOP in C++ progr
 * matrix_add.cpp
 * matrix_eva.cpp
 
+### lab 6
+Week-6-Matrices-II[980].pdf
+* matrix_det_and_multi.cpp
 
+### lab 7 and lab 8
+Week-7-Linked-List[991].pdf
+Week-8-Double-Linked-List[992].pdf
+* Single_ll.cpp
+* sli.txt
+* slo.txt
+* double_ll.cpp
+* dli.txt
+* dlo.txt
 
 ### Sallybus for OOP and DSA
 - Lecture01
@@ -67,12 +79,3 @@ Go to the `Class_Codes` name folder then you'll get OOP codes in C++ langauge
 * constructor1.cpp
 * constructor2.cpp
 * ptrs_classes_new.cpp
-
-### lab 7 and lab 8
-Week-7-Linked-List[991],pdf
-* Single_ll.cpp
-* sli.txt
-* slo.txt
-* double_ll.cpp
-* dli.txt
-* dlo.txt
