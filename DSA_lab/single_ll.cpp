@@ -138,6 +138,35 @@ void deleting(int value)
     return;
 }
 
+// length of the node
+int size_of_linked_list()
+{
+    int size=0;
+    node *temp = start;
+    while (temp->next!=NULL)
+    {
+        temp=temp->next;
+        size = size +1;
+    }
+    return size;
+}
+
+// Function to store the linked list to a file
+void saveListToFile() {
+    ofstream outputFile("slo.txt");
+    if (outputFile.is_open()) {
+        node *temp = start;
+        while (temp != nullptr) {
+            outputFile << temp->data << " ";
+            temp = temp->next;
+        }
+        outputFile.close();
+        cout << "Linked list saved to output.txt" << endl;
+    } else {
+        cout << "Unable to open output.txt for writing" << endl;
+    }
+}
+
 // main function
 int main()
 {
@@ -187,10 +216,7 @@ int main()
             break;
         }
         case 4:{
-            //int input_value;
-            cout<<"Enter the value of new node that you want to add: : ";//cin>>input_value;
-            cout<<endl;
-            //creating_node(input_value);
+            cout<<"Length of the single linked list: "<<size_of_linked_list()<<endl;
             break;
         }
         case 5:{
