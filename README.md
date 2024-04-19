@@ -68,7 +68,11 @@ Go to the `Class_Codes` name folder then you'll get OOP codes in C++ langauge
 * constructor2.cpp
 * ptrs_classes_new.cpp
 
-### lab 7
+### lab 7 and lab 8
 Week-7-Linked-List[991],pdf
 * Single_ll.cpp
 * sli.txt
+* slo.txt
+* double_ll.cpp
+* dli.txt
+* dlo.txt
