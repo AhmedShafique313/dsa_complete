@@ -16,15 +16,22 @@ node *start = NULL;
 // If no linked list then create 
 void creating_node(int value)
 {
-    if (start == NULL)
+    try
     {
+        if (start == NULL)
+        {
 
-        start=new node;
-        start->data=value;
-        start->next=NULL;
-        length=length+1;
+            start=new node;
+            start->data=value;
+            start->next=NULL;
+            length=length+1;
+        }
+        else
+        {
+            throw(value);
+        }
     }
-    else
+    catch(int data)
     {
         cout<<"Linked list already exist, Please try to add instead of creating linked list"<<endl;
     }
@@ -97,7 +104,7 @@ int main()
         case 1:{
             int input_value;
             cout<<"Enter the value of node: ";cin>>input_value;cout<<endl;
-            creating_node(input_value);
+            add(input_value);
             break;
         }
         case 2:{
@@ -105,10 +112,7 @@ int main()
             break;
         }
         case 3:{
-            //int input_value;
-            cout<<"Enter the value of new node that you want to add: : ";//cin>>input_value;
-            cout<<endl;
-            //creating_node(input_value);
+            traverse();
             break;
         }
         case 4:{
