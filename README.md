@@ -79,3 +79,7 @@ Go to the `Class_Codes` name folder then you'll get OOP codes in C++ langauge
 * constructor1.cpp
 * constructor2.cpp
 * ptrs_classes_new.cpp
+
+### Assignments
+* Rat in maze problem using stacks
+`code` rat_in_maze_using_stacks.cpp
