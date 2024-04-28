@@ -82,5 +82,4 @@ Go to the `Class_Codes` name folder then you'll get OOP codes in C++ langauge
 
 ### Assignments
 * Rat in maze problem using stacks
-`code` rat_in_maze_using_stacks.cpp 😲
-![DSA](https://github.com/AhmedShafique313/dsa_complete/assets/99950606/a742485d-be8e-4f24-b9c2-5ba3eb1108fe)
+![image](https://github.com/AhmedShafique313/dsa_complete/assets/99950606/ca52edbb-63e3-4eea-a678-49e5cfa44d90)
