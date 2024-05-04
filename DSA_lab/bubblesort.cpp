@@ -6,6 +6,7 @@ int bubble_Sort(int arr[], int length)
     int temp;
     for (int j = 0; j < length; j++)
     {
+        int swap = 0;
         for (int i = 0; i < length-1; i++)
         {
             if (arr[i] > arr[i+1])
@@ -13,7 +14,7 @@ int bubble_Sort(int arr[], int length)
                 temp = arr[i];
                 arr[i]= arr[i+1];
                 arr[i+1]= temp;
-
+                swap = swap + 1;
             }   
         }   
     }
