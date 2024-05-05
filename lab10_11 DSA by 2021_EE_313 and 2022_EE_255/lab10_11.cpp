@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <chrono>
 #include <time.h>
-//#include "gnuplot-iostream.h"
+#include "gnuplot-iostream.h"
 using namespace std;
 using namespace std::chrono;
 
