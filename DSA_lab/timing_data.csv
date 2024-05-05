@@ -1,0 +1,9 @@
+HeapSort,900,122
+RadixSort,990,119
+CountSort,920,115
+BubbleSort,780,120
+BucketSort,950,101
+InsertionSort,999,111
+SelectionSort,765,116
+QuickSort,1000,123
+MergeSort,950,122

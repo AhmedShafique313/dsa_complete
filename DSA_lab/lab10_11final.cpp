@@ -3,23 +3,19 @@
 #include <algorithm>
 #include <chrono>
 #include <time.h>
-#include "gnuplot-iostream.h"
+#include <random>
 using namespace std;
 using namespace std::chrono;
 
-void fun(){
-
-    cout<<"Fun() start \n";
-    
-    while (1)
-    {
-        if (getchar())
-        {
-        }    
-    }    
-    
-   cout<<"Fun() ends \n";
+void generateRandomData(int arr[], int size) {
+    random_device rd;
+    mt19937 gen(rd());
+    uniform_int_distribution<> dis(1, 1000);
+    for (int i = 0; i < size; ++i) {
+        arr[i] = dis(gen);
+    }
 }
+
 
 void readdata(const char* file_convert, int element[], int &entries) 
 {
@@ -60,6 +56,7 @@ void heapify(int arr[], int length, int index) {
 }
 
 void heapsort(int arr[], int length) {
+    auto start = high_resolution_clock::now();
     // Build heap (rearrange array)
     for (int i = length / 2 - 1; i >= 0; i--) {
         heapify(arr, length, i);
@@ -73,9 +70,13 @@ void heapsort(int arr[], int length) {
         // call max heapify on the reduced heap
         heapify(arr, i, 0);
     }
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<milliseconds>(stop - start);
+    cout << "HeapSort Time: " << duration.count() << " milliseconds" << endl;
 }
 
 void CountSort(int arr[], int length) {
+    auto start = high_resolution_clock::now();
     // Find the maximum element in the array
     int maxNum = arr[0];
     for (int i = 1; i < length; ++i) {
@@ -110,6 +111,9 @@ void CountSort(int arr[], int length) {
     for (int i = 0; i < length; ++i) {
         arr[i] = output[i];
     }
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<milliseconds>(stop - start);
+    cout << "CountSort Time: " << duration.count() << " milliseconds" << endl;
 }
 
 int getMax(int arr[], int n)
@@ -152,6 +156,7 @@ void countSort(int arr[], int length, int exp)
 // Radix Sort
 void radixsort(int arr[], int length)
 {
+     auto start = high_resolution_clock::now();
     // Find the maximum number to know number of digits
     int m = getMax(arr, length);
     // Do counting sort for every digit. Note that instead
@@ -159,10 +164,14 @@ void radixsort(int arr[], int length)
     // where i is current digit number
     for (int exp = 1; m / exp > 0; exp *= 10)
         countSort(arr, length, exp);
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<milliseconds>(stop - start);
+    cout << "RadixSort Time: " << duration.count() << " milliseconds" << endl;
 }
 
 int bubbleSort(int arr[], int length)
 {
+     auto start = high_resolution_clock::now();
     int temp;
     for (int j = 0; j < length; j++)
     {
@@ -178,6 +187,9 @@ int bubbleSort(int arr[], int length)
             }   
         }   
     }
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<milliseconds>(stop - start);
+    cout << "BubbleSort Time: " << duration.count() << " milliseconds" << endl;
 }
 
 int partition(int arr[], int start, int end)
@@ -212,6 +224,7 @@ int partition(int arr[], int start, int end)
  
 void quickSort(int arr[], int start, int end)
 {
+    
     // base case
     if (start >= end)
         return;
@@ -224,6 +237,7 @@ void quickSort(int arr[], int start, int end)
 }
 
 void InsertionSort(float arr[], int length) {
+    
     for (int i = 1; i < length; i++) {
         float key = arr[i];
         int j = i - 1;
@@ -233,9 +247,11 @@ void InsertionSort(float arr[], int length) {
         }
         arr[j + 1] = key;
     }
+    
 }
 
 void bucketsort(float arr[], int length) {
+    auto start = high_resolution_clock::now();
     const int bucketSize = 10; // Define the number of buckets
     float maxVal = *max_element(arr, arr + length); // Find the maximum value in the array
     float minVal = *min_element(arr, arr + length); // Find the minimum value in the array
@@ -268,10 +284,14 @@ void bucketsort(float arr[], int length) {
             }
         }
     }
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<milliseconds>(stop - start);
+    cout << "InsertionSort Time: " << duration.count() << " milliseconds" << endl;
 }
 
 void insertionSort(int arr[], int length)
 {
+    
     int i, j, key;
     for (i = 1; i < length; i++) {
         key = arr[i];
@@ -287,6 +307,7 @@ void insertionSort(int arr[], int length)
         }
         arr[j + 1] = key;
     }
+    cout<<endl;
 }
 
 void mergesort(int arr[], int left, int mid, int right)
@@ -344,6 +365,7 @@ void mergesort(int arr[], int left, int mid, int right)
 // cutting array recursively
 void merge_sort(int arr[], int left, int right)
 {
+    auto start = high_resolution_clock::now();
     if (left<right)
     {
         int mid = left+(right-left)/2;
@@ -351,11 +373,14 @@ void merge_sort(int arr[], int left, int right)
         merge_sort(arr, mid + 1, right);
         mergesort(arr,left,mid,right);
     }
-    
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<milliseconds>(stop - start);
+    cout << "InsertionSort Time: " << duration.count() << " milliseconds" << endl;
 }
 
 void selectionSort(int arr[], int lenght)
 {
+    auto start = high_resolution_clock::now();
     int min_idx;
     
     for (int i = 0; i < lenght - 1; i++) {
@@ -373,6 +398,9 @@ void selectionSort(int arr[], int lenght)
         if (min_idx != i)
             swap(arr[min_idx], arr[i]);
     }
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<milliseconds>(stop - start);
+    cout << "InsertionSort Time: " << duration.count() << " milliseconds" << endl;
 }
 
 void printing_sorted_arrays(int arr[], int length) {
@@ -387,98 +415,130 @@ void fprinting_sorted_arrays(float arr[], int length) {
     }cout<<endl;
 }
 
+void saveTimingData(const string& filename, const string& algorithm, int size, long long duration) {
+    ofstream file(filename, ios::app);
+    if (file.is_open()) {
+        file << algorithm << "," << size << "," << duration << endl;
+        file.close();
+    } else {
+        cout << "Unable to open file: " << filename << endl;
+    }
+}
+
+// Timing measurement function
+long long measureSortingTime(void (*sortingFunction)(int[], int), int arr[], int size) {
+    auto start = high_resolution_clock::now();
+    sortingFunction(arr, size);
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<milliseconds>(stop - start);
+    return duration.count();
+}
+
 int main()
 {
    
+    const string filename = "timing_data.csv";
+    ofstream file(filename);
 
+    if (!file.is_open()) {
+        cout << "Unable to open file: " << filename << endl;
+        return 1;
+    }
+
+    const int sizes[] = {1000, 5000, 10000};  // Sizes of input arrays
+    const int num_sizes = sizeof(sizes) / sizeof(sizes[0]);
+
+    // Iterate over different input sizes
+    for (int i = 0; i < num_sizes; ++i) {
+        int size = sizes[i];
+        int* arr = new int[size];
+
+        // Generate random data for sorting
+        generateRandomData(arr, size);
+
+        // Measure time for HeapSort and save data
+        long long heapSortTime = measureSortingTime(heapsort, arr, size);
+        saveTimingData(filename, "HeapSort", size, heapSortTime);
+
+        // Measure time for CountSort and save data
+        long long countSortTime = measureSortingTime(countSort, arr, size);
+        saveTimingData(filename, "CountSort", size, countSortTime);
+
+        // Measure time for QuickSort and save data
+        long long quickSortTime = measureSortingTime(quickSort, arr, 0, size - 1);
+        saveTimingData(filename, "QuickSort", size, quickSortTime);
+
+        delete[] arr;
+    }
+
+    cout << "Timing data saved to " << filename << endl;
     int n, store[500];
     const char* file_open = "array_data.txt";
     readdata(file_open, store, n);
     printing(store, n);
-
-
     cout<<"HeapSort Applying................."<<endl;
-    // Measure run-time for HeapSort
-    auto start = high_resolution_clock::now();
-    
     heapsort(store, n);
-    auto stop = high_resolution_clock::now();
-    auto duration = duration_cast<milliseconds>(stop - start);
-    cout << "HeapSort Time: " << duration.count() << " milliseconds" << endl;
     printing_sorted_arrays(store,n);
 
 
     cout<<"CountSort Applying................."<<endl;
-    start = high_resolution_clock::now();
+    
     CountSort(store, n);
-    stop = high_resolution_clock::now();
-    duration = duration_cast<milliseconds>(stop - start);
-    cout << "CountSort Time: " << duration.count() << " milliseconds" << endl;
     printing_sorted_arrays(store,n);
 
 
     cout<<"RadixSort Applying................."<<endl;
-    start = high_resolution_clock::now();
+   
     radixsort(store, n);
-    stop = high_resolution_clock::now();
-    duration = duration_cast<milliseconds>(stop - start);
-    cout << "RadixSort Time: " << duration.count() << " milliseconds" << endl;
+    
     printing_sorted_arrays(store,n);
 
 
     cout<<"BubbleSort Applying................."<<endl;
-    start = high_resolution_clock::now();
+    
     bubbleSort(store, n);
-    stop = high_resolution_clock::now();
-    duration = duration_cast<milliseconds>(stop - start);
-    cout << "BubbleSort Time: " << duration.count() << " milliseconds" << endl;
+    
     printing_sorted_arrays(store,n);
 
 
     cout<<"QuickSort Applying................."<<endl;
-    start = high_resolution_clock::now();
+    auto start = high_resolution_clock::now();
     quickSort(store, 0, n - 1);
-    stop = high_resolution_clock::now();
-    duration = duration_cast<milliseconds>(stop - start);
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<milliseconds>(stop - start);
     cout << "QuickSort Time: " << duration.count() << " milliseconds" << endl;
     printing_sorted_arrays(store,n);
 
 
     cout<<"BucketSort Applying................."<<endl;
-    start = high_resolution_clock::now();
+    
     int len = 9;
     float array[len] = {8.48, 5.27, 9.10, 7.89, 3.01, 2.48, 6.32, 1.95, 1.27};
     bucketsort(array, n);
-    stop = high_resolution_clock::now();
-    duration = duration_cast<milliseconds>(stop - start);
-    cout << "BucketSort Time: " << duration.count() << " milliseconds" << endl;
+    
     fprinting_sorted_arrays(array,len);
 
 
     cout<<"InsertionSort Applying................."<<endl;
-    start = high_resolution_clock::now();
+    
     insertionSort(store, n);
-    stop = high_resolution_clock::now();
-    duration = duration_cast<milliseconds>(stop - start);
-    cout << "InsertionSort Time: " << duration.count() << " milliseconds" << endl;
+    
     printing_sorted_arrays(store,n);
 
     
     cout<<"MergeSort Applying................."<<endl;
-    start = high_resolution_clock::now();
+    
     merge_sort(store,0,n-1);
-    stop = high_resolution_clock::now();
-    duration = duration_cast<milliseconds>(stop - start);
-    cout << "MergeSort Time: " << duration.count() << " milliseconds" << endl;
+    
     printing_sorted_arrays(store,n);
 
 
     cout<<"SelectionSort Applying................."<<endl;
-    start = high_resolution_clock::now();
+    
     selectionSort(store, n);
-    stop = high_resolution_clock::now();
-    duration = duration_cast<milliseconds>(stop - start);
-    cout << "SelectionSort Time: " << duration.count() << " milliseconds" << endl;
+    
     printing_sorted_arrays(store,n);
+
+    saveTimingData("timing_data.csv", "HeapSort", 1000, 123); // Example values
     return 0;
 }
