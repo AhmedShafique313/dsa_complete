@@ -29,6 +29,7 @@ double geometric_infinite_series(double a, double r) {
     }
 }
 
+
 int main()
 {
     int choice;
@@ -49,14 +50,14 @@ int main()
         cout<<"Enter the value of r : ";cin>>r;
         cout<<"Enter the value of n : ";cin>>n;
         double sum2 = geometric_series(a, r, n);
-        cout<<"Sum of Arithmatic Series: "<<sum2<<endl;
+        cout<<"Sum of Geometric Series: "<<sum2<<endl;
     }
     else 
     {
         cout<<"Enter the value of a : ";cin>>a;
         cout<<"Enter the value of r : ";cin>>r;
         double sum3 = geometric_infinite_series(a,r);
-        cout<<"Sum of Arithmatic Series: "<<sum3<<endl;
+        cout<<"Sum of Infinite Geometric Series: "<<sum3<<endl;
     }
     return 0;
 }
