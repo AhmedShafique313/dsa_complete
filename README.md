@@ -19,22 +19,6 @@ All labs containing codes that are very helpful for doing DSA & OOP in C++ progr
 * Step:02 Clone into your pc/laptop using vs code or git
 * Step:03 edit and then again push into your repository
 
-# Sallybus for OOP and DSA
-- Lecture01
-- Lecture02
-- Lecture03
-- Lecture04
-
-### Object Oriented Programming Codes
-Go to the `Class_Codes` name folder then you'll get OOP codes in C++ langauge
-
-* cl1.cpp
-* cons_with_def.cpp
-* const_func.cpp
-* constructor1.cpp
-* constructor2.cpp
-* ptrs_classes_new.cpp
-
 
 # Data Structures and Algorithms LAB
 ## University of Engineering and Technology Lahore (New Campus)
@@ -98,6 +82,21 @@ How to use this command on terminal in your folder containing this file
 
 ### Output
 ![plottts](https://github.com/AhmedShafique313/dsa_complete/assets/99950606/f4fb1e40-04b3-4b3b-aaee-fcfa9fd3a40b)
+
+# Sallybus of DSA and OOP
+By `Dr. Haris Anwar` 
+- Lecture01
+- Lecture02
+- Lecture03
+- Lecture04
+### Lecture Codes of DSA & OOP
+Go to the `Class_Codes` name folder then you'll get OOP codes in C++ langauge
+* cl1.cpp
+* cons_with_def.cpp
+* const_func.cpp
+* constructor1.cpp
+* constructor2.cpp
+* ptrs_classes_new.cpp
 
 # Assignments of Data Structures and Algorithm course
 `Rat in maze problem using stacks`
