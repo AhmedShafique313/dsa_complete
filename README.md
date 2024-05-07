@@ -90,10 +90,9 @@ Here are some steps:
 - Download all the slides in this folder
 
 ### Slides
-- Lecture01
-- Lecture02
-- Lecture03
-- Lecture04
+- Lecture01-updated
+- Lecture02-updated
+- Lecture03-updated
 - Lecture04-updated
 - Lecture05-updated
 ### Lecture Codes of DSA & OOP
