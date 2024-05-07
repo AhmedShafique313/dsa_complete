@@ -110,4 +110,13 @@ This course taught by `Dr. Bilal Wajid` in 2022-2023 and `Dr. Haris Anwar` in 20
 * Week-5-Matrices-I[975].pdf
 * matrix_complete.cpp
 
+`LAB 6 Matrices-II`
+* Week-6-Matrices-II[980].pdf
+* matrix_det_and_multi.cpp
+* array_data.txt
+How to use this command on terminal in your folder containing this file `matrix_det_and_multi.exe matrix_det_and_multi.cpp array_data.txt`
+
+`LAB 7 and 8 Single and Double Linked Lists`
+ 
+
 
