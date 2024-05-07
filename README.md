@@ -85,3 +85,10 @@ Go to the `Class_Codes` name folder then you'll get OOP codes in C++ langauge
 * rat_in_maze_using_stack.cpp
 * 
 ![image](https://github.com/AhmedShafique313/dsa_complete/assets/99950606/ca52edbb-63e3-4eea-a678-49e5cfa44d90)
+
+# Data Structures and Algorithms LAB
+### University of Engineering and Technology Lahore (New Campus)
+`Department of Electrical Engineering and Technology`
+### UET LOGO
+![image](https://github.com/AhmedShafique313/dsa_complete/assets/99950606/d0602bb2-da69-4121-860e-f6c8b901314f)
+### All labs codes along their manuals

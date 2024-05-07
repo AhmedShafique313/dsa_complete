@@ -10,9 +10,9 @@ void fun(){
     {
         if (getchar())
         {
+            break;
         }    
     }    
-    
    cout<<"Fun() ends \n";
 }
 
