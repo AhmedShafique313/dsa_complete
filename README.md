@@ -50,19 +50,7 @@ All labs containing codes that are very helpful for doing DSA & OOP in C++ progr
 * matrix_add.cpp
 * matrix_eva.cpp
 
-### lab 6
-Week-6-Matrices-II[980].pdf
-* matrix_det_and_multi.cpp
 
-### lab 7 and lab 8
-Week-7-Linked-List[991].pdf
-Week-8-Double-Linked-List[992].pdf
-* Single_ll.cpp
-* sli.txt
-* slo.txt
-* double_ll.cpp
-* dli.txt
-* dlo.txt
 
 ### Sallybus for OOP and DSA
 - Lecture01
@@ -117,6 +105,13 @@ This course taught by `Dr. Bilal Wajid` in 2022-2023 and `Dr. Haris Anwar` in 20
 How to use this command on terminal in your folder containing this file `matrix_det_and_multi.exe matrix_det_and_multi.cpp array_data.txt`
 
 `LAB 7 and 8 Single and Double Linked Lists`
- 
+- Week-7-Linked-List[991].pdf
+- Week-8-Double-Linked-List[992].pdf
+* Single_ll.cpp
+* sli.txt
+* slo.txt
+* double_ll.cpp
+* dli.txt
+* dlo.txt
 
 
