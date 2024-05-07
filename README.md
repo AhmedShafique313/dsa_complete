@@ -47,6 +47,12 @@ Go to the `Class_Codes` name folder then you'll get OOP codes in C++ langauge
 This course taught by `Dr. Bilal Wajid` in 2022-2023 and `Dr. Haris Anwar` in 2023-2024
 ### Department Image
 ![image](https://github.com/AhmedShafique313/dsa_complete/assets/99950606/d0602bb2-da69-4121-860e-f6c8b901314f)
+
+### How to use them 🤔
+* Step:01 Fork the repository 
+* Step:02 Clone into your pc/laptop using vs code or git
+* Step:03 edit and then again push into your repository
+
 ### All labs codes along their manuals
 
 `LAB 1 & 2 Series and Structures` 
@@ -69,7 +75,8 @@ This course taught by `Dr. Bilal Wajid` in 2022-2023 and `Dr. Haris Anwar` in 20
 * Week-6-Matrices-II[980].pdf
 * matrix_det_and_multi.cpp
 * array_data.txt
-How to use this command on terminal in your folder containing this file `matrix_det_and_multi.exe matrix_det_and_multi.cpp array_data.txt`
+How to use this command on terminal in your folder containing this file 
+### matrix_det_and_multi.exe matrix_det_and_multi.cpp array_data.txt
 
 `LAB 7 and 8 Single and Double Linked Lists`
 - Week-7-Linked-List[991].pdf
