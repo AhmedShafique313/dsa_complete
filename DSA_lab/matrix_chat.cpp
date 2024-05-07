@@ -199,3 +199,4 @@ int main(int argc, char *argv[])
 
     matrix2 = subtraction_matrices(r1, c1, r2, c2, p1, p2);
     sub_printing
+}

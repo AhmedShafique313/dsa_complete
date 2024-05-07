@@ -106,3 +106,8 @@ This course taught by `Dr. Bilal Wajid` in 2022-2023 and `Dr. Haris Anwar` in 20
 * filehand2.cpp
 * filehand3.cpp
 
+`LAB 5 Matrices-I`
+* Week-5-Matrices-I[975].pdf
+* matrix_complete.cpp
+
+
