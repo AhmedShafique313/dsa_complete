@@ -61,6 +61,10 @@ This course taught by `Dr. Bilal Wajid` in 2022-2023 and `Dr. Haris Anwar` in 20
 * 1_1.cpp
 * student_structure.cpp
 
+`LAB 3 Structures and Pointers`
+* Lab-II-Fundamentals-III[921].pdf
+* student_structures.cpp
+
 `LAB 4 File Handling`
 * Lab-IV-File-Handling.pdf
 * filehand1.cpp
