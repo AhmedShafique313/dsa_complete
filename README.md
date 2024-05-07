@@ -88,4 +88,12 @@ How to use this command on terminal in your folder containing this file
 * dli.txt
 * dlo.txt
 
+`LAB 10 and 11 Sorting`
+* Week-10-11-Sorting[1043].pdf
+* lab10_11.cpp
+* lab10_11final.cpp
+* plotting.py
+* timing_csv 
 
+### Output
+![plottts](https://github.com/AhmedShafique313/dsa_complete/assets/99950606/f4fb1e40-04b3-4b3b-aaee-fcfa9fd3a40b)
