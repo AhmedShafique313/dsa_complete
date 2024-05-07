@@ -18,41 +18,8 @@ All labs containing codes that are very helpful for doing DSA & OOP in C++ progr
 * Step:01 Fork the repository 
 * Step:02 Clone into your pc/laptop using vs code or git
 * Step:03 edit and then again push into your repository
-### Data Structures and Algorithms codes
-### Lab 1 & 2
-* Arthmatic Series
-* Geometric Series
-* Geometric Sum Series
-* Combination of all these
-* Student Structure for average marks calculation
-* Lab-III-Fundamentals-I[921].pdf
-* Lab-III-Fundamentals-II[921].pdf
 
-### Lab 3 
-* Sort_struct_student.cpp
-* Lab-III-Fundamentals-III[921].pdf
-
-### Lab 4
-* Lab-IV-File-Handling.pdf
-* file_h.cpp
-* filehand.cpp
-* filehand1.cpp
-* filehand2.cpp
-* filehand3.cpp
-
-### Lab 5
-* Week-5-Matrices-1.pdf
-* matrix1row.cpp
-* matrix1withptr.cpp
-* matrix1_withoutptr.cpp
-* matrix_without_cmd.cpp
-* matrix_sub.cpp
-* matrix_add.cpp
-* matrix_eva.cpp
-
-
-
-### Sallybus for OOP and DSA
+# Sallybus for OOP and DSA
 - Lecture01
 - Lecture02
 - Lecture03
