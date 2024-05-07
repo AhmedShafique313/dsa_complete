@@ -90,12 +90,19 @@ Go to the `Class_Codes` name folder then you'll get OOP codes in C++ langauge
 ## University of Engineering and Technology Lahore (New Campus)
 ### Department of Electrical Engineering and Technology
 This course taught by `Dr. Bilal Wajid` in 2022-2023 and `Dr. Haris Anwar` in 2023-2024
-### UET LOGO
+### Department Image
 ![image](https://github.com/AhmedShafique313/dsa_complete/assets/99950606/d0602bb2-da69-4121-860e-f6c8b901314f)
 ### All labs codes along their manuals
 
-`LAB 1 & 2` 
+`LAB 1 & 2 Series and Structures` 
 * Lab-I_II-Fundamentals-I[921].pdf
 * combine.cpp
 * 1_1.cpp
+* student_structure.cpp
+
+`LAB 4 File Handling`
+* Lab-IV-File-Handling.pdf
+* filehand1.cpp
+* filehand2.cpp
+* filehand3.cpp
 
