@@ -84,11 +84,18 @@ How to use this command on terminal in your folder containing this file
 ![plottts](https://github.com/AhmedShafique313/dsa_complete/assets/99950606/f4fb1e40-04b3-4b3b-aaee-fcfa9fd3a40b)
 
 # Sallybus of DSA and OOP
-By `Dr. Haris Anwar` 
+By `Dr. Haris Anwar`.  How to get these slides 🤔
+Here are some steps:
+- Go the folder `Course UET DSA and OOP`.
+- Download all the slides in this folder
+
+### Slides
 - Lecture01
 - Lecture02
 - Lecture03
 - Lecture04
+- Lecture04-updated
+- Lecture05-updated
 ### Lecture Codes of DSA & OOP
 Go to the `Class_Codes` name folder then you'll get OOP codes in C++ langauge
 * cl1.cpp
