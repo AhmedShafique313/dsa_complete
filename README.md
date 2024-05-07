@@ -4,7 +4,7 @@
 
 ### Complete Codes of Data Structures and Algorithms, OOP Codes and detailed lectures of our Udemy Course 
 
-This Repository is used to help others to find data structures and algorithms codes in signle repository. I am GitHub open source contributer contributing my all C/C++ Codes related to DSA & OOP in single repository. ✨
+
 ### Instructor: Ahmed Shafique
 - Electrical Engineer `25`
 - Specialized in AI/ML and in Deep Neural Networks
@@ -35,11 +35,6 @@ Go to the `Class_Codes` name folder then you'll get OOP codes in C++ langauge
 * constructor2.cpp
 * ptrs_classes_new.cpp
 
-### Assignments
-* Rat in maze problem using stacks
-* rat_in_maze_using_stack.cpp
-* 
-![image](https://github.com/AhmedShafique313/dsa_complete/assets/99950606/ca52edbb-63e3-4eea-a678-49e5cfa44d90)
 
 # Data Structures and Algorithms LAB
 ## University of Engineering and Technology Lahore (New Campus)
@@ -48,6 +43,8 @@ This course taught by `Dr. Bilal Wajid` in 2022-2023 and `Dr. Haris Anwar` in 20
 ### Department Image
 ![image](https://github.com/AhmedShafique313/dsa_complete/assets/99950606/d0602bb2-da69-4121-860e-f6c8b901314f)
 
+### Why I providing?
+This Repository is used to help others to find data structures and algorithms codes in signle repository. I am GitHub open source contributer contributing my all C/C++ Codes related to DSA & OOP in single repository. ✨
 ### How to use them 🤔
 * Step:01 Fork the repository 
 * Step:02 Clone into your pc/laptop using vs code or git
@@ -101,3 +98,7 @@ How to use this command on terminal in your folder containing this file
 
 ### Output
 ![plottts](https://github.com/AhmedShafique313/dsa_complete/assets/99950606/f4fb1e40-04b3-4b3b-aaee-fcfa9fd3a40b)
+
+# Assignments of Data Structures and Algorithm course
+`Rat in maze problem using stacks`
+* rat_in_maze_using_stack.cpp
