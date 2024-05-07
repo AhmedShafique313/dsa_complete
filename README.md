@@ -87,8 +87,15 @@ Go to the `Class_Codes` name folder then you'll get OOP codes in C++ langauge
 ![image](https://github.com/AhmedShafique313/dsa_complete/assets/99950606/ca52edbb-63e3-4eea-a678-49e5cfa44d90)
 
 # Data Structures and Algorithms LAB
-### University of Engineering and Technology Lahore (New Campus)
-`Department of Electrical Engineering and Technology`
+## University of Engineering and Technology Lahore (New Campus)
+### Department of Electrical Engineering and Technology
+This course taught by `Dr. Bilal Wajid` in 2022-2023 and `Dr. Haris Anwar` in 2023-2024
 ### UET LOGO
 ![image](https://github.com/AhmedShafique313/dsa_complete/assets/99950606/d0602bb2-da69-4121-860e-f6c8b901314f)
 ### All labs codes along their manuals
+
+`LAB 1 & 2` 
+* Lab-I_II-Fundamentals-I[921].pdf
+* combine.cpp
+* 1_1.cpp
+
