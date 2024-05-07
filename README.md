@@ -107,3 +107,10 @@ Go to the `Class_Codes` name folder then you'll get OOP codes in C++ langauge
 # Assignments of Data Structures and Algorithm course
 `Rat in maze problem using stacks`
 * rat_in_maze_using_stack.cpp
+
+## 🤞 Solved Manuals 🧐 How to get these solved manuals ? 🐺 
+Lets start game with you guess the name of folder and get all these labs manuals
+* Folder name starts with `l` and ends with `s` 🎲
+* It contain one space in the name of folder 🎮
+
+Now Guess and get manuals from that folder... 
